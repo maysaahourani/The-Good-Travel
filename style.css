@@ -40,12 +40,18 @@ fieldset {
     display: inline;
     margin-left:90 px ;
     background-color: #5d4b7696;
-    padding-left: 100px;
+    padding-left: 10px;
     margin: auto;
     float: left;
+    border-radius: 5px;
 
 
 }
+
+input option select{
+    border-radius: 5px;
+}
+
 
 table {
     background-color:#fffdfe88;
@@ -92,7 +98,6 @@ h1{
     text-align: center;
     font-size: 70px;
     color: aliceblue;
-    font-family: 'Righteous', cursive;
-margin-left: 400px;}
+    font-family: 'Righteous', cursive;}
 
   
