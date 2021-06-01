@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+main {
+    margin: auto;
+    
+}
+
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    display: block;
+
+}
+
+
+
+header img {
+    height: 100px;
+    width: 200px;
+    margin: 15px;
+    display: inline;
+    margin: auto;
+    float: inline-start;
+    margin-right: 400px;
+
+}
+
+header {
+    background-color: rgba(202, 240, 251, 255);
+    margin: 50px;
+}
+
+fieldset {
+    border: springgreen 1px solid;
+    width:  700 px;
+    display: inline;
+    margin-left:90 px ;
+    background-color: #5d4b7696;
+    padding-left: 100px;
+    margin: auto;
+    float: left;
+
+
+}
+
+table {
+    background-color:#fffdfe88;
+    float: left;
+    margin: auto;
+    padding: 30px;
+    display: inline;
+
+
+}
+
+
+
+.col1 {
+    background-color: #5d4b7696;
+    background-color:#5d4b7696 
+float=left;
+margin: auto;
+width: 600px;
+display: inline;
+margin-left: 100 px;
+
+}
+
+
+.col2 {
+    background-color: #5d4b7696;
+margin: auto;
+width: 600px;
+display: inline;
+margin-left: 100 px;
+
+}
+
+
+td th {
+    font-family: 'Righteous', cursive;
+border: black solid 1px;
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: aliceblue;
+    font-family: 'Righteous', cursive;
+margin-left: 400px;}
+
+  

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> </title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="logo.gif">
+            The Good Travel
+        </h1>
+    </header>
+    <main>
+        <div id=col1>
+            <form id="addNewPlaceForm">
+                <fieldset >
+                    <legend> add a new place</legend>
+                    <br>
+                    <br>
+                    <label for="PlaceName">Place Name</label>
+                    <br>
+                    <input type="text" name="placeName" id="placeNameId">
+                    <br>
+                    <br>
+                    <label for="tripPlace ">Trip Place</label>
+                    <br>
+
+                    <select name="tripPlace" id="tripPlace">
+                        <option value="HAWAII">HAWAII</option>
+                        <option value="LONDON">LONDON</option>
+                        <option value="PARIS">PARIS</option>
+                        <option value="ITALY">ITALY</option>
+                        <option value="SLOVAKIA">SLOVAKIA</option>
+                        <option value="MALAYSIA">MALAYSIA</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="typeOfTransport "> Type Of Transport
+                    </label>
+                    <br>
+                    <select name="typeOfTransport" id="typeOfTransport" >
+                        <option value="cruise">cruise</option>
+                        <option value="Flight">Flight</option>
+                        <option value="Train">Train</option>
+                        <option value="Car">car</option>
+                        <option value="metro">metro</option>
+                        <option value="bicycle">bicycle</option>
+                    </select>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button type="submit"> submit</button>
+                    
+                </fieldset>
+            </form>
+        </div>
+        <div id=col2>
+            <table id="addNewPlaceTable"></table>
+        </div>
+
+    </main>
+
+    <footer></footer>
+    <script src='app.js'></script>
+</body>
+
+</html>
